@@ -13,7 +13,7 @@ def assembled_aoh
 
 	# assembled_array = [don_g,joelle_vd,pat_m,kate_g,bruce_g]
 	assembled_array = [don_g,joelle_vd,pat_m,kate_g,bruce_g]
-	assembled_array
+	assembled_array.flatten!.to_a
  
 end	
 
